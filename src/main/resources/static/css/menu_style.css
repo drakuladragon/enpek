@@ -1,0 +1,87 @@
+.menu {
+    width: 15%;
+    height: 100%;
+    background: #F7F0E8;
+    text-align: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: inline;
+}
+.logo_icon {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 15%;
+    height: 140px;
+}
+.header_title {
+    padding-top: 50px;
+    color: #7c795d;
+    font-family: 'Trocchi', serif;
+}
+/*end title*/
+
+.header_conven {
+    padding-top: 10px;
+    margin-left: -36px;
+}
+.conven_menu {
+    list-style-type: none;
+}
+.conven-item {
+    margin: 10px;
+    display: inline-block;
+}
+.header_menu {
+    text-align: center;
+    color: #7c795d;
+    font-family: 'Trocchi', serif;
+}
+.potrait_menu {
+    display: inline-block;
+    text-align: center;
+    list-style-type: none;
+}
+.menu_item {
+    padding: 10px 10px;
+    font-size: 20px;
+    text-align: center;
+}
+.item_link {
+    margin-left: -36px;
+    display: block;
+    position: relative;
+    color: #7c795d;
+    font-family: 'Trocchi', serif;
+    text-decoration: none;
+}
+.item_link:hover {
+    color: #ccc;
+    text-decoration: none;
+}
+/*end menu*/
+
+/*link*/
+.social_holder{
+    list-style-type: none;
+    margin-left: -36px;
+}
+.social-item{
+    display: inline-block;
+    padding: 10px 10px;
+}
+.social-link{
+
+}
+/*pay*/
+.pay{
+
+}
+.pay_holder{
+    margin-left: -36px;
+    list-style-type: none;
+}
+.pay-item{
+    display: inline-block;
+    padding: 10px 10px;
+}

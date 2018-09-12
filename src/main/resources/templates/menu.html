@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org/">
+    <head>
+        <meta charset="utf-8">
+            <title>
+                Title
+            </title>
+            
+            <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
+            <!-- Font -->
+            <link href="font-awesome.min.css" rel="stylesheet"/>
+            <link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" rel="stylesheet"/>
+            <!--google font Trocchi-->
+            <link href="https://fonts.googleapis.com/css?family=Trocchi" rel="stylesheet"/>
+            <!-- boottrap 4 -->
+            <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" rel="stylesheet"/>
+            <!-- date picker -->
+            <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/css/bootstrap-datepicker.min.css" rel="stylesheet"/>
+
+            <link th:href="@{/css/menu_style.css}" rel="stylesheet"/>
+        </meta>
+    </head>
+    <body>
+        <div class="menu" th:fragment="menu">
+            <div class="header_logo">
+                <div class="img_wrap">
+                    <img alt="" class="logo_icon" src="assets/icon/mylogo.png">
+                    </img>
+                </div>
+                <h1 class="header_title">
+                    Pillows
+                </h1>
+            </div>
+            <div class="header_conven">
+                <ul class="conven_menu">
+                    <li class="conven-item">
+                        <a href="">
+                            <i class="fas fa-sign-in-alt" style="color: #7c795d;">
+                            </i>
+                        </a>
+                    </li>
+                    <li class="conven-item">
+                        <a href="">
+                            <i class="fa fa-user" style="color: #7c795d;">
+                            </i>
+                        </a>
+                    </li>
+                    <li class="conven-item" id="myModal">
+                        <a data-target="#search" data-toggle="modal" href="#">
+                            <i class="fa fa-search" style="color: #7c795d;">
+                            </i>
+                        </a>
+                    </li>
+                    <li class="conven-item">
+                        <a href="">
+                            <i class="fa fa-shopping-basket" style="color: #7c795d;">
+                            </i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="header_menu">
+                <ul class="potrait_menu">
+                    <li class="menu_item">
+                        <a class="item_link" href="/">
+                            Home
+                        </a>
+                    </li>
+                    <li class="menu_item nav-wrap">
+                        <a  class="item_link "  href="/shop" >
+                            Shop
+                        </a>
+                    </li>
+                    <li class="menu_item">
+                        <a class="item_link" href="/blog">
+                            Blog
+                        </a>
+                    </li>
+                    <li class="menu_item">
+                        <a class="item_link" href="/comment">
+                            About Us
+                        </a>
+                    </li>
+                    <li class="menu_item">
+                        <a class="item_link" href="#">
+                            Contact Us
+                        </a>
+                    </li>
+                    <li class="menu_item">
+                        <a class="item_link" href="#">
+                            Newsletter
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="social">
+                <ul class="social_holder">
+                     <li class="social-item">
+                        <a href="" class="social-link">
+                            <i class="fab fa-facebook-f" style="color: #7c795d;">
+                            </i>
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a href="" class="social-link">
+                            <i class="fab fa-twitter" style="color: #7c795d;">
+                            </i>
+                        </a>
+                    </li>
+                    <li class="social-item" >
+                        <a href="" class="social-link">
+                            <i class="fab fa-google-plus-g" style="color: #7c795d;">
+                            </i>
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a href="" class="social-link">
+                            <i class="fab fa-linkedin-in" style="color: #7c795d;">
+                            </i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+               <div class="pay">
+                <ul class="pay_holder">
+                     <li class="pay-item">
+                        <a href="" class="pay-link">
+                            <i class="fab fa-paypal fa-2x" style="color: #7c795d;">
+                            </i>
+                        </a>
+                    </li>
+                    <li class="pay-item">
+                        <a href="" class="pay-link">
+                            <i class="fab fa-apple-pay fa-2x" style="color: #7c795d;">
+                            </i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+                    
+        </div>
+
+        <script crossorigin="anonymous" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" src="https://code.jquery.com/jquery-3.3.1.slim.min.js">
+        </script>
+        <script crossorigin="anonymous" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js">
+        </script>
+        <script crossorigin="anonymous" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js">
+        </script>
+        <!-- date picker -->
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/js/bootstrap-datepicker.min.js"></script>
+        <script type="text/javascript" src="/js/event.js"></script>
+    </body>
+</html>

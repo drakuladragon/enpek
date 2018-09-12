@@ -1,0 +1,48 @@
+.product_info {
+    width: 85%;
+    margin-left: 15%;
+    padding-top: 15px;
+    font-family: 'Trocchi', serif;
+    color: black;
+}
+
+.checked {
+    color: #F7F0E8;
+}
+
+.img_wrap {
+
+}
+
+.product_img {
+    width: 100%;
+}
+
+.non-checked {
+    color: lightgray;
+}
+
+.other-preview {
+    padding-top: 15px;
+    padding-left: -15px;
+    padding-right: -15px;
+}
+#overlay{
+    position: absolute;
+    top: 0;
+    left: 155%;
+    border: 1px solid black;
+    width: 250px;
+    height: 250px;
+    background-image: url("/image/blow_banner/1.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.client-want h4{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.clear-margin{
+    margin-left: -30px !important;
+    margin-right: -30px !important;
+}

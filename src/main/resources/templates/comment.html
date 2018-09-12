@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org/">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
+
+</head>
+<body>
+
+<div th:replace="menu"></div>
+<main style="width: 85%; margin-left: 15%">
+   <table style="border: 1px solid black">
+       <tr th:each="comment : ${commentList}" th:object="${comment}">
+           <th style="padding: 10px; border: 1px solid #ccc" th:text="*{name}"></th>
+           <th style="padding: 10px; border: 1px solid #ccc" th:text="*{content}"></th>
+       </tr>
+   </table>
+</main>
+
+</body>
+</html>

@@ -1,0 +1,354 @@
+.container:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/*.menu {*/
+/*width: 15%;*/
+/*height: 100%;*/
+/*background: antiquewhite;*/
+/*text-align: center;*/
+/*position: fixed;*/
+/*top: 0px;*/
+/*left: 0px;*/
+/*display: inline;*/
+/*}*/
+/*.logo_icon {*/
+/*background-size: contain;*/
+/*background-repeat: no-repeat;*/
+/*width: 15%;*/
+/*height: 140px;*/
+/*}*/
+/*.header_title {*/
+/*padding-top: 50px;*/
+/*color: #7c795d;*/
+/*font-family: 'Trocchi', serif;*/
+/*}*/
+/*!*end title*!*/
+
+/*.header_conven {*/
+/*padding-top: 10px;*/
+/*margin-left: -36px;*/
+/*}*/
+/*.conven_menu {*/
+/*list-style-type: none;*/
+/*}*/
+/*.conven-item {*/
+/*margin: 10px;*/
+/*display: inline-block;*/
+/*}*/
+/*.header_menu {*/
+/*text-align: center;*/
+/*color: #7c795d;*/
+/*font-family: 'Trocchi', serif;*/
+/*}*/
+/*.potrait_menu {*/
+/*display: inline-block;*/
+/*text-align: center;*/
+/*list-style-type: none;*/
+/*}*/
+/*.menu_item {*/
+/*padding: 10px 10px;*/
+/*font-size: 20px;*/
+/*text-align: center;*/
+/*}*/
+/*.item_link {*/
+/*margin-left: -36px;*/
+/*display: block;*/
+/*position: relative;*/
+/*color: #7c795d;*/
+/*font-family: 'Trocchi', serif;*/
+/*text-decoration: none;*/
+/*}*/
+/*.item_link:hover {*/
+/*color: #ccc;*/
+/*text-decoration: none;*/
+/*}*/
+/*!*end menu*!*/
+
+/*!*link*!*/
+/*.social_holder{*/
+/*list-style-type: none;*/
+/*margin-left: -36px;*/
+/*}*/
+/*.social-item{*/
+/*display: inline-block;*/
+/*padding: 10px 10px;*/
+/*}*/
+/*.social-link{*/
+/**/
+/*}*/
+/*!*pay*!*/
+/*.pay{*/
+/**/
+/*}*/
+/*.pay_holder{*/
+/*margin-left: -36px;*/
+/*list-style-type: none;*/
+/*}*/
+/*.pay-item{*/
+/*display: inline-block;*/
+/*padding: 10px 10px;*/
+/*}*/
+/*home_page*/
+
+.home_page {
+    width: 85%;
+    margin-left: 15%;
+}
+
+.img_wrap {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    display: inline-block;
+}
+
+.img_content {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.img_wrap-anim {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    display: inline-block;
+}
+
+.img_content-anim {
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.img_content-anim:hover {
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.row {
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.col-xl-4 {
+    text-align: center;
+}
+
+.top_product {
+    text-align: center;
+}
+
+.clear-padding {
+    padding: 0 !important;
+}
+
+/*small banner*/
+
+.small_banner .container {
+    max-width: 1200px;
+}
+
+.small_banner-item {
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+/*big banner*/
+
+.banner_items {
+}
+
+.banner_holder {
+    display: inline-block;
+    margin-bottom: 180px;
+    position: absolute;
+    width: 100%;
+    top: 40%;
+}
+
+.big_banner-title {
+    color: #494c51;
+    font-family: 'Trocchi', serif;
+    border: 1px solid #666970;
+    width: 250px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.big_banner {
+    position: relative;
+    background-image: url("../image/parallax.jpg");
+    background-attachment: fixed;
+    height: 700px;
+}
+
+/*search*/
+
+.search_input {
+    border: none;
+    margin: 10px 10px;
+    font-family: 'Trocchi', serif;
+}
+
+.modal-title {
+    font-family: 'Trocchi', serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.potrait_menu > li > .dropdown-menu {
+    background-color: antiquewhite;
+}
+
+/*collection*/
+
+.collection .container {
+    max-width: 1200px;
+}
+
+.collection {
+    margin-bottom: 90px;
+    margin-top: 90px;
+}
+
+.collection_item-num {
+    font-family: 'Trocchi', serif;
+    color: black;
+    font-size: 24px;
+}
+
+.collection_item-num:hover {
+    text-decoration: none;
+    color: #ccc;
+}
+
+.collection-title {
+    margin-bottom: 80px;
+    font-family: 'Trocchi', serif;
+    color: black;
+    font-size: 34px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+/*awesome*/
+
+.awesome {
+    padding: 90px 0;
+    background-color: antiquewhite;
+}
+
+.awesome .container {
+    max-width: 900px;
+}
+
+.awesome-title {
+    font-family: 'Trocchi', serif;
+}
+
+.awesome-content {
+    font-family: 'Trocchi', serif;
+    font-size: 15px;
+}
+
+/*recent product*/
+
+.recent_product .container {
+    max-width: 1200px;
+}
+
+.recent_product {
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+/*video*/
+
+.big_banner_para {
+    position: relative;
+    background-image: url("../image/parallax-video.jpg");
+    background-attachment: fixed;
+    height: 700px;
+}
+
+.banner_video_holder {
+    display: inline-block;
+    margin-bottom: 180px;
+    position: absolute;
+    width: 100%;
+    height: 190px;
+    top: 37%;
+    text-align: center;
+}
+
+.banner_video .fa {
+    display: inline-block;
+    text-align: center;
+    border: 20px solid #fff;
+    background-color: rgba(208, 226, 228, .8);
+    border-radius: 50%;
+    height: 190px;
+    width: 190px;
+    line-height: 151px;
+}
+
+.banner_video .fa:hover {
+    color: #ccc;
+}
+
+/*blog*/
+.img-blog_wrap {
+    width: 100%;
+    height: 100%;
+}
+
+.blog-item {
+    margin-bottom: 20px;
+}
+
+.blog {
+    margin-top: 90px;
+    margin-bottom: 80px;
+}
+
+.link:hover {
+    text-decoration: none;
+}
+
+.read_more:hover {
+    color: #ccc;
+}
+
+.read_more {
+    line-height: 13px;
+    font-family: 'Trocchi', serif;
+    font-size: 16px;
+    color: black;
+}
+
+.icon {
+    padding-left: 10px;
+}
+
+/*.datepicker{
+    position: absolute;
+    background-color: white;
+}
+.datepicker-holer{
+    position: relative;
+}*/
